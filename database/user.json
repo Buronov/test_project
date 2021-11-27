@@ -1,7 +1,7 @@
 {
-    "name": "ilkhom",
+    "name": "Jonibek",
     "profession": "software engineer",
-    "age": 26,
+    "age": 20,
     "residence": "S.Korea",
     "adress": "S.Korea, Busan",
     "languages": "Korean,English,Uzbek",
@@ -9,5 +9,6 @@
     "extra_skills": "",
     "work_place": "Somyon station",
     "service_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum",
-    "about_me":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus"
+    "about_me":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus",
+    "image": "https://i.ibb.co/18qmqxF/35-45-DSC-0077.jpg"
 }
