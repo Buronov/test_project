@@ -51,7 +51,12 @@
   position: relative;
   width: 970px;
   height: 653px;
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: #E5E5E5;
 }
 
 .left_1 {
@@ -609,6 +614,96 @@
   align-items: center;
 }
 
+.midd_top_frame {
+  display: flex;
+  flex-direction: column;
+  width: 970px;
+}
+
+.round_yellow {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 496px;
+  top: 46px;
+  border-radius: 50%;
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  box-sizing: border-box;
+}
+
+.round_green {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 898px;
+  top: 79px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  box-sizing: border-box;
+}
+
+.round_yellow_1 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 554.86px;
+  top: 379.96px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  box-sizing: border-box;
+}
+
+.round_green_1 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 90px;
+  top: 422px;
+  border-radius: 50%;
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  box-sizing: border-box;
+}
+
+.rectangle_yellow {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 63.66px;
+  top: 25.66px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  box-sizing: border-box;
+  transform: rotate(26.05deg);
+}
+
+.rectangle_blue {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 375.03px;
+  top: 331px;
+  
+  border: 2px solid rgba(0, 71, 255, 0.8);
+  box-sizing: border-box;
+  transform: rotate(26.05deg);
+}
+
+.triangle_red {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 925px;
+  top: 427px;
+  
+  border-radius: 100px 10px 15px 20px;
+  
+  border: 2px solid rgba(255, 46, 0, 0.8);
+  box-sizing: border-box;
+}
+
+.midd_top_div {
+  display: flex;
+  flex-direction: row;
+}
 
 
 .midd_top_main_text {
@@ -631,7 +726,6 @@
   /* Black */
   
   color: #2B2B2B;
-  background-color: aqua;
 }
 
 .midd_top_text {
@@ -657,23 +751,23 @@
   /* Paragraph Font */
   
   color: #767676;
-  background-color: aqua;
 }
 
 .midd_top_btn {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  display: flex;
-  flex-direction: column;
   position: relative;
+  display: flex;
+  flex-direction: row;
+ 
   width: 154px;
   height: 51px;
   margin-top: 25px;
   margin-left: 60px;
+
+  justify-content: center;
+  align-items: center;
   
-  background-color: aqua;
+  background: #FFB400;
+  border-radius: 5px
 }
 
 .midd_top_img {
@@ -682,17 +776,28 @@
   height: 459.09px;
   /* justify-content: flex-end; */
   display: flex;
-  flex-direction: row;
-  /* margin-left: 586.68px; */
+  flex-direction: column;
+  margin-right: 57.6px;
+  margin-top: 48px;
 
-  /* background: url(Your Image.png); */
-  background-color: aqua ;
+  
+}
+
+.btn_text {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn_icon {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-left: 11.67px;
 }
 
 .vector {
   position: relative;
-  left: 10%;
-  right: 6.67%;
   display: flex;
   flex-direction: column;
 
@@ -735,6 +840,7 @@
   background: #FFB400;    
 }
 
+
 .menu_icon_border {
   position: relative;
   width: 40px;
@@ -749,6 +855,174 @@
   background: #F0F0F6;
 }
 
+.midd_bot_main_txt {
+  position: relative;
+  width: 193px;
+  height: 40px;
+  
+  /* H2 - 32px */
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 123.6%;
+  /* identical to box height, or 40px */
+  
+  text-transform: capitalize;
+  display: flex;
+  /* Black */
+  
+  color: #2B2B2B;
+}
+
+.midd_bot_text {
+  position: relative;
+  width: 438px;
+  height: 68px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  /* P-15px paragraph */
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+  
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: 'calt' off, 'kern' off;
+  
+  /* Paragraph Font */
+  
+  color: #767676;
+}
+
+.midd_boxs {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.boxs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 225px;
+  margin-right: 20px;
+  
+  /* White */
+  
+  background: #FFFFFF;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box_img {
+  margin-bottom: 33.44px;
+}
+
+.box_main_txt {
+  margin-bottom: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  font-weight: bold;
+/* or 22px */
+
+  text-transform: capitalize;
+
+  /* Black */
+
+  color: #2B2B2B;
+}
+
+
+.end_box_main_text {
+  
+  margin-bottom: 22px;
+  /* H4 - 18px */
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+  
+  text-transform: capitalize;
+  font-weight: bold;
+  /* Black */
+  
+  color: #2B2B2B;
+}
+
+.end_box_text {
+  position: relative;
+  width: 260px;
+  height: 78px;
+  margin-bottom: 28px;
+  
+  /* P-15px paragraph */
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+  
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: 'calt' off, 'kern' off;
+  
+  /* Paragraph Font */
+  
+  color: #767676;
+}
+
+.end_box_link {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 69px;
+  height: 14px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  
+  
+  /* Yellow */
+  
+  color: #FFB400;
+}
+
+.end_box_icon {
+  position: relative;
+  left: 38.93%;
+  right: 37.5%;
+  margin-left: 4.79px;
+  
+  /* Yellow */
+  
+  /* background: #FFB400; */
+}
 
 
 
