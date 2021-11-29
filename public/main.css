@@ -59,6 +59,11 @@
   background-color: #E5E5E5;
 }
 
+.link_href {
+  text-decoration: none;
+  color: black;
+}
+
 .left_1 {
   position: relative;
   width: 228px;
@@ -353,7 +358,7 @@
 
 .left_2-1-7 {
   position: relative;
-  width: 56%;
+  width: 47%;
   height: 24px;
   
   display: flex;
@@ -930,6 +935,33 @@
 
 .box_img {
   margin-bottom: 33.44px;
+}
+
+.coding_icon_left {
+  position: absolute;
+  left: 44%;
+  right: 59.37%;
+  top: 22.68%;
+  bottom: 48.43%;
+  
+  /* Yellow */
+  
+}
+
+.coding_icon_midd {
+  position: absolute;
+  left: 48%;
+  right: 42.38%;
+  top: 22.69%;
+  bottom: 48.44%;
+}
+
+.coding_icon_right {
+  position: absolute;
+  left: 53%;
+  right: 29.69%;
+  top: 22.68%;
+  bottom: 48.44%;
 }
 
 .box_main_txt {
