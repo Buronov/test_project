@@ -9,6 +9,7 @@
   
 }
 
+
 a:hover {
   color: #278303;
 }
@@ -1059,6 +1060,21 @@ input {
 
   /* Black */
 
+  color: #2B2B2B;
+}
+
+.box_txt {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  /* or 22px */
+  
+  text-transform: capitalize;
+  font-weight: bold;
+  /* Black */
+  
   color: #2B2B2B;
 }
 
