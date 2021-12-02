@@ -94,7 +94,7 @@ input {
   align-items: center;
   display: flex;
   flex-direction: row;
-  margin-top: 70px;
+  margin-top: 2px;
 }
 .left_frame {
   position: relative;
@@ -190,7 +190,7 @@ input {
 .left_4 {
   position: relative;
   width: 220px;
-  height: 242px;
+  height: 252px;
   margin-top: 25px;
   margin-left: 45px;
 }
