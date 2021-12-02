@@ -17,15 +17,12 @@ fs.readFile("database/user.json", "utf8", (err, data) => {
 //   res.end("you are connected");
 // });
 router.get("/author", (req, res) => {
-  console.log("/author");
   res.render("author", { user: user });
 });
 router.get("/contact", (req, res) => {
-  console.log("/contact");
   res.render("contact", {user: user});
 });
 router.get("/home", (req, res) => {
-  console.log("/home");
   res.render("store", { user: user });
 });
 

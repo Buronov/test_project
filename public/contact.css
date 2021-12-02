@@ -1,0 +1,322 @@
+.frame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #E5E5E5;   
+}
+a{
+    text-decoration: none;
+}
+.main_frame {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 1218px;
+    height: 743px;
+    font-family: sans-serif;
+    
+    /* Schemas/jnt-secondary-dark-color-OLD */
+    margin: 228px 351px 229px 351px;
+    border: 1px solid #E6E9FA;
+    box-sizing: border-box;
+    backdrop-filter: blur(24px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 24px;
+}
+
+.left_frame {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 732px;
+    height: 743px;
+    
+    /* Schemas / jnt-primary-color */
+    
+    background: #3949AB;
+    backdrop-filter: blur(24px);
+    border-radius: 24px 0px 0px 24px;
+}
+
+.right_frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 64px;
+    
+    position: relative;
+    width: 486px;
+    height: 680px;
+    
+    background: rgba(253, 248, 248, 0.986);
+    backdrop-filter: blur(24px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 0px 24px 24px 0px;
+}
+
+.main_left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_frame {
+    position: relative;
+    width: 221px;
+    height: 221px;
+    display: flex;
+    justify-content: center;
+    background-image: url("author/images/Jonibek.png");    
+    /* Schemas/jnt-primary-dark-color */
+    background-repeat: round;
+    /* background: #00227B; */
+    border-radius: 50%;
+    border: 3px solid #de753e;
+    opacity: 0.6;
+    
+}
+
+.logo_frame img {
+    vertical-align: middle;
+    width: 100%;
+    height: 221px;
+    border-radius: 50%;
+    
+}
+
+.left_txt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.txt_one {
+    position: relative;
+    width: 400px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200%;
+    /* or 48px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    /* Palette / jnt-white-color */
+    
+    color: #FFFFFF;
+}
+
+.txt_two {
+    position: relative;
+    width: 314px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 18px;
+    line-height: 200%;
+    /* padding-bottom: 10px; */
+    /* or 48px */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
+    
+    /* Palette / jnt-white-color */
+    font-style: italic;
+    color: #FFBF00;
+}
+
+.txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 18px;
+    
+    position: relative;
+    width: 107px;
+    height: 65px;
+
+    font-size: 28px;
+    
+    
+    /* Inside Auto Layout */
+    
+}
+
+.name_form {
+    position: relative;
+    width: 358px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    /* Inside Auto Layout */
+    border: 1px solid #D0D0D0;
+    margin: 16px 0px;
+    /* padding: 2px; */
+    border-radius: 8px;
+    background: rgba(253, 248, 248, 0.986);
+}
+
+.email_form {
+    position: relative;
+    width: 358px;
+    height: 40px;
+    /* Control / jnt-control-border-color */
+    
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: rgba(253, 248, 248, 0.986);
+}
+
+.text_form {
+    position: relative;
+    width: 358px;
+    height: 212px;
+    margin: 16px 0px;
+    
+    background: rgba(253, 248, 248, 0.986);
+    border-radius: 10px;
+}
+
+textarea {
+    position: relative;
+    width: 353px;
+    height: 212px;
+    padding-top: 5px;
+    padding-left: 5px;
+    
+    border: 1px solid rgba(255, 0, 0, 0.329);
+    outline: none;;
+    background: rgba(253, 248, 248, 0.986);
+    border-radius: 5px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 1px solid blue;
+  }
+
+
+.submit_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    width: 358px;
+    height: 40px;
+    margin-top: 32px;
+    
+    /* Schemas / jnt-primary-color */
+    
+    background: rgb(231, 19, 19);
+    border-radius: 40px;
+    color: white;
+    border: none;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 358px;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: rgb(203, 219, 235);
+    /* color: white; */
+    min-width: 20px;
+    text-align: center;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: 1px solid red;
+    border-radius: 0px 8px 8px 0px;
+  }
+  
+  .input-field:focus {
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: 1px solid blue;
+  }
+
+
+  button {
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border: none;
+
+  }
+  
+  button span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: blue;
+    transition: all .59s;
+    border-radius: 40px;
+    /* border: 1px solid blue; */
+  }
+  
+  button:hover{
+    color: #fff;
+  }
+  
+  button:hover:after{
+    width: 100%;
+    
+    border-radius: 40px;
+  }
