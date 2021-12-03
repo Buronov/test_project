@@ -12,9 +12,9 @@ fs.readFile("database/user.json", "utf8", (err, data) => {
   }
 });
 
-// router.get("/", (req, res) => {
-//   res.render("index", {user: user});
-// });
+router.get("/", (req, res) => {
+  res.render("index", {user: user});
+});
 router.get("/author", (req, res) => {
   res.render("author", { user: user });
 });

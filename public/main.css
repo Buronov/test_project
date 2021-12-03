@@ -17,7 +17,7 @@ a:hover {
 a:active {
   color: blue;
 }
-
+/* 
 .navbar {
   width: 1440px;
   height: 65px;
@@ -86,8 +86,11 @@ input {
   width: 327px;
   height: 19px;
   margin-left: 280px;
-}
+} */
 
+ * {
+   font-family: sans-serif;
+ }
 .main_frame {
   position: relative;
   width: 1440px;
@@ -96,6 +99,7 @@ input {
   display: flex;
   flex-direction: row;
   margin-top: 2px;
+  
 }
 .left_frame {
   position: relative;
@@ -227,7 +231,7 @@ input {
   margin-bottom: 6.65px;
   /* H4 - 18px */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -254,7 +258,7 @@ input {
 
   /* Paragraph Progress - 15 */
 
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -332,7 +336,7 @@ input {
   
   /* Paragraph Progress - 15 */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -374,7 +378,7 @@ input {
   
   /* Paragraph Progress - 15 */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -417,7 +421,7 @@ input {
   
   /* Paragraph Progress - 15 */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -460,7 +464,7 @@ input {
   
   /* Paragraph Progress - 15 */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -488,7 +492,7 @@ input {
   
   /* H4 - 18px */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -521,7 +525,7 @@ input {
 
   /* Paragraph Progress - 15 */
 
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -537,7 +541,7 @@ input {
   
   /* Paragraph Progress - 15 */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -637,7 +641,7 @@ input {
 
   /* H4 - 18px */
 
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -798,7 +802,7 @@ input {
   width: 500px;
   height: 118px;
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -822,7 +826,7 @@ input {
   
   /* H6 - 16px */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -897,50 +901,6 @@ input {
   /* background: #2B2B2B; */
 }
 
-.menu {
-  position: relative;
-  width: 65px;
-  height: 493px;
-
-  margin-right: 22px;
-  margin-left: 21px;
-  margin-top: 177px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-
-}
-
-
-.home_icon {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  /* Yellow */
-  
-  background: #FFB400;    
-}
-
-
-.menu_icon_border {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* Background */
-
-  background: #F0F0F6;
-}
 
 .midd_bot_main_txt {
   position: relative;
@@ -949,7 +909,7 @@ input {
   
   /* H2 - 32px */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -971,7 +931,7 @@ input {
   margin-bottom: 50px;
   /* P-15px paragraph */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -1048,7 +1008,7 @@ input {
 
 .box_main_txt {
   margin-bottom: 15px;
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -1063,19 +1023,22 @@ input {
   color: #2B2B2B;
 }
 
-.box_txt {
-  font-family: Inter;
+.box_text {
+  
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 123.6%;
-  /* or 22px */
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
   
+  text-align: center;
   text-transform: capitalize;
-  font-weight: bold;
-  /* Black */
+  font-feature-settings: 'calt' off, 'kern' off;
   
-  color: #2B2B2B;
+  /* Paragraph Font */
+  
+  color: #767676;
 }
 
 
@@ -1084,7 +1047,7 @@ input {
   margin-bottom: 22px;
   /* H4 - 18px */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -1106,7 +1069,7 @@ input {
   
   /* P-15px paragraph */
   
-  font-family: Inter;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -1126,10 +1089,10 @@ input {
   position: relative;
   display: flex;
   flex-direction: row;
-  width: 69px;
+  width: 75px;
   height: 14px;
   
-  font-family: Roboto;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -1153,6 +1116,88 @@ input {
   /* background: #FFB400; */
 }
 
+
+.menu {
+  position: relative;
+  width: 65px;
+  height: 493px;
+
+  margin-right: 22px;
+  margin-left: 21px;
+  margin-top: 177px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+
+.home_icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Yellow */
+  
+  background: #FFB400;    
+}
+
+
+.menu_icon_border {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Background */
+
+  background: #F0F0F6;
+}
+
+.menu_icon_border:hover {
+  background-color: #FFB400;
+}
+
+
+.menu_icon_border .tooltip {
+  visibility: hidden;
+  width: 75px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  z-index: 1;
+  bottom: 115%;
+  left: 110%;
+  margin-left: -60px;
+}
+
+.menu_icon_border .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.menu_icon_border:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
 
 
 

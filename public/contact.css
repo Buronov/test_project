@@ -207,9 +207,8 @@ textarea {
     width: 353px;
     height: 212px;
     padding-top: 5px;
-    padding-left: 5px;
-    
-    border: 1px solid rgba(255, 0, 0, 0.329);
+    padding-left: 5px;    
+    border: 1px solid blue;    
     outline: none;;
     background: rgba(253, 248, 248, 0.986);
     border-radius: 5px;
@@ -217,7 +216,7 @@ textarea {
 
 textarea:focus {
     outline: none;
-    border: 1px solid blue;
+    border: 1px solid rgba(255, 0, 0, 0.329);
   }
 
 
@@ -262,16 +261,16 @@ textarea:focus {
     outline: none;
     border-top: hidden;
     border-right: hidden;
-    border-left: hidden;
-    border-bottom: 1px solid red;
+    border-left: hidden;    
+    border-bottom: 1px solid blue;
     border-radius: 0px 8px 8px 0px;
   }
   
   .input-field:focus {
     border-top: hidden;
     border-right: hidden;
-    border-left: hidden;
-    border-bottom: 1px solid blue;
+    border-left: hidden;    
+    border-bottom: 1px solid red;
   }
 
 
