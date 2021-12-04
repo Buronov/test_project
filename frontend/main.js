@@ -2,15 +2,27 @@ console.log("FRONT END EXECUTED");
 // import $ from "jquery";
 
 $(function () {
+  //--------------- STORE EJS PAGE COMMANDS -----------------//
   // contact button click
-  $("#button_cont").click(() => {
+  $("#button_cont").on("click", () => {
     console.log("you clicked the Contact Us");
     OpenPopupCenter("/contact", "contact us", 1240, 760);
+  });
+
+  $("#button_cont").on("mouseover", () => {
+    console.log("you are focusing the Contact Us button");
   });
 
   // if clicked on item_title
   $(".items_title").click(() => {
     console.log("you clicked the items_title class");
+  });
+
+  //--------------- CONTACT EJS PAGE COMMANDS -----------------//
+  $("#close_btn").on("click", () => {
+    console.log("you clicked the close");
+    window.opener.location.reload();
+    window.close();
   });
 });
 
