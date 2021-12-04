@@ -1,4 +1,5 @@
 console.log("FRONT END EXECUTED");
+import moment from "moment";
 // import $ from "jquery";
 
 $(function () {
@@ -23,6 +24,33 @@ $(function () {
     console.log("you clicked the close");
     window.opener.location.reload();
     window.close();
+  });
+
+  $(".submit_btn").on("click", () => {
+    console.log("you clicked the submit");
+    const name_t = $("#name_input").val();
+    const email_t = $("#email_input").val();
+    const msg_t = $("textarea").val();
+    const params = {
+      name: name_t,
+      email: email_t,
+      msg: msg_t,
+      time: moment().format(),
+    };
+    console.log(params);
+
+    $.post(
+      "/call-me",
+      params,
+      (data) => {
+        console.log("data :", data);
+        window.opener.location.reload();
+        window.close();
+      },
+      "JSON"
+    ).fail((err) => {
+      console.log("ERROR ::: ", err);
+    });
   });
 });
 
