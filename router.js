@@ -13,13 +13,13 @@ fs.readFile("database/user.json", "utf8", (err, data) => {
 });
 
 router.get("/", (req, res) => {
-  res.render("index", {user: user});
+  res.render("index", { user: user });
 });
 router.get("/author", (req, res) => {
   res.render("author", { user: user });
 });
 router.get("/contact", (req, res) => {
-  res.render("contact", {user: user});
+  res.render("contact", { user: user });
 });
 router.get("/home", (req, res) => {
   res.render("store", { user: user });
